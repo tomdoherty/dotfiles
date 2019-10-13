@@ -4,6 +4,7 @@ endif
 
 execute pathogen#infect()
 
+set bg=light
 syntax on
 set modeline
 set modelines=2
@@ -14,7 +15,11 @@ endif
 
 set cursorline
 set cursorcolumn
-hi CursorLine	cterm=NONE ctermbg=237 ctermfg=NONE guibg=darkred guifg=white
-hi CursorColumn	cterm=NONE ctermbg=235 ctermfg=NONE guibg=darkred guifg=white
+" hi CursorLine	cterm=NONE ctermbg=237 ctermfg=NONE guibg=darkred guifg=white
+" hi CursorColumn	cterm=NONE ctermbg=235 ctermfg=NONE guibg=darkred guifg=white
+
+set number
+set tabpagemax=100
 
 let g:airline_powerline_fonts = 1
+let g:airline_theme='luna'
