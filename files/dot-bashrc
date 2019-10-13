@@ -31,3 +31,7 @@ alias :vp='test -n "$TMUX" && tmux split-window -h'
 alias cd..='cd ..'
 
 alias prettyjson='python -m json.tool'
+
+alias vu='vagrant up'
+alias vd='vagrant destroy'
+alias vdf='vagrant destroy -f'
