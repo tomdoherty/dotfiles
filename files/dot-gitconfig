@@ -1,0 +1,14 @@
+[user]
+  name = Tom Doherty
+  email = tom@singlesecond.com
+ 
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+  ui = true
+  pager = true
+                                                                                
+[core]
+  editor = vim 

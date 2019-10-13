@@ -13,12 +13,12 @@ if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
 
-set cursorline
-set cursorcolumn
+" set cursorline
+" set cursorcolumn
 " hi CursorLine	cterm=NONE ctermbg=237 ctermfg=NONE guibg=darkred guifg=white
 " hi CursorColumn	cterm=NONE ctermbg=235 ctermfg=NONE guibg=darkred guifg=white
 
-set number
+" set number
 set tabpagemax=100
 
 let g:airline_powerline_fonts = 1
