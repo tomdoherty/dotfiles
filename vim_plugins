@@ -1,2 +1,3 @@
 vim-airline/vim-airline
 vim-airline/vim-airline-themes
+tpope/vim-fugitive

@@ -5,6 +5,8 @@ endif
 execute pathogen#infect()
 
 set bg=light
+" colorscheme solarized
+
 syntax on
 set modeline
 set modelines=2
