@@ -1,0 +1,33 @@
+# .bashrc
+
+export TERM=xterm-256color
+export HISTCONTROL=ignoreboth
+
+alias act='. virtualenv/bin/activate'
+
+alias g=git
+alias gb='git branch'
+alias gcm='git checkout master'
+alias gco='git checkout'
+alias gl='git log'
+alias glo='git log --oneline'
+alias gp='git pull'
+alias gpu='git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)'
+alias gr='git fetch && git rebase origin/master'
+alias gri='git fetch && git rebase -i $(git rev-parse origin/HEAD)'
+alias groot='cd $(git rev-parse --show-toplevel 2>/dev/null || echo -n ".")'
+alias cdiff='git diff --no-index $*'
+
+alias tm='tmux a -d || tmux'
+
+alias :e=vim
+alias :qa=exit
+alias :q=exit
+alias :q!=exit
+alias :wq=exit
+alias :sp='test -n "$TMUX" && tmux split-window'
+alias :vp='test -n "$TMUX" && tmux split-window -h'
+
+alias cd..='cd ..'
+
+alias prettyjson='python 0m json.tool'

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for file in $(dirname $0)/files/dot-*; do
+  cp -v "$file" ~/.$(basename "${file#.*dot-}")
+done

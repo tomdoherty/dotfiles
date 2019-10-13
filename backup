@@ -1,0 +1,5 @@
+#!/bin/bash
+
+while read file; do
+  cp -v ~/$file files/dot-$(basename "$file" | sed 's;^.;;')
+done <$(dirname $0)/dotfiles
