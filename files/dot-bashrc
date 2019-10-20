@@ -2,5 +2,6 @@
 
 export TERM=xterm-256color
 export HISTCONTROL=ignoreboth
+export PS1='[\u@\h \W]\$ '
 
 [[ -f ~/.aliases ]] && source ~/.aliases
