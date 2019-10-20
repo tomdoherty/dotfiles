@@ -1,5 +1,7 @@
+.aliases
 .vimrc
 .tmux.conf
 .bashrc
 .lessfilter
 .gitconfig
+.zshrc
